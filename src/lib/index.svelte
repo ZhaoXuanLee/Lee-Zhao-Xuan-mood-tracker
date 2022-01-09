@@ -18,5 +18,3 @@
 <section class="container px-4 py-3 text-center">
     <button class="btn btn-secondary" on:click={logout}>Logout</button>
 </section>	
-
-<Singup/>
