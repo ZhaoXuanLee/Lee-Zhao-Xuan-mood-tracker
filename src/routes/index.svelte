@@ -8,11 +8,6 @@
     }
 
 </script>
-<style>
-    @import
-   url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css");
-   </style>
-   
 
 <!-- Sign Out -->
 <section class="container px-4 py-3 text-center">

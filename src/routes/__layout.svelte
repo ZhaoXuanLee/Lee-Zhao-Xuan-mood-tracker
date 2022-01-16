@@ -19,14 +19,15 @@
 
     function redirect() {
    	 // login redirect
-   	 if ($session && $page.path === '/login') {
+   	 if ($session && $page.url.pathname === '/login') {
    		 goto('/');
    	 }
 
    	 // logout redirect
-   	 if (!$session && $page.path === '/') {
+   	 if (!$session && $page.url.pathname === '/') {
    		 goto('/login');
    	 }
     }
 </script>
 <slot />
+
